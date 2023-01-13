@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form  method="get">
+        <fieldset >
+            <legend>Personal Form</legend>
+            <label for="fname">FirstName:</label>
+            <input  id="fname" type="text" name="fname"   ><br>
+            <label for="mail">Email id:</label>
+            <input type="text" name="mail"  value ="vamshikrishna5038@gmail.com" ><br>
+            <label for="password">Email id:</label>
+            <input type="password" name="Password"  value ="vamshi@123" ><br>
+            <label>Click on your gender:</label><br>
+            <label for="Male">Male</label>
+            <input  id="Male"  type="radio" name="Gender"  value ="Male" >
+            <label for="Female">Female</label>
+            <input id="Female" type="radio" name="Gender"  value ="Female" >
+            <label for="Others">Others</label>
+            <input id="Others" type="radio" name="Gender"  value ="Others" >
+
+            <br>
+        Click on the language you know <br>
+            <label>HTML</label>
+            <input type="checkbox" name="languages"  value ="HTML" >
+            <label>CSS</label>
+            <input type="checkbox" name="languages"  value ="CSS" >
+            <label>JS</label>
+            <input type="checkbox" name="languages"  value ="JS" ><br>
+            <label for="number">Enter your favourite number:</label>
+            <input  id ="number" type="number" name="Number"  value ="" placeholder="8" ><br>
+            <label for="URL">URL:</label>
+            <input type="url" name="URL"  value ="" ><br>
+            <label for="file">Please put your passport photo here:</label>
+            <input  type="file" id="file" name="file"  value ="" ><br>
+            <label for="telephone">Please Enter your Phone number:</label>
+            <input  type="tel" id="telephone" name="file"  value ="" placeholder="8106535352" ><br>
+            <label for="time">Please Select your preferred time:</label>
+            <input  type="time" id="time" name="time"  value =""  ><br>
+            <label for="level">Select your level</label>
+            <select id="level">
+               
+                    <option disabled selected hidden>Select your level</option>
+                    <optgroup  label="Basic1">
+                
+                <option >Basic</option>
+                <option >Intermeidate</option>
+                <option >Expert</option>
+            </optgroup>
+            <optgroup   label="Basic2">
+                <option >Basic</option>
+                <option >Intermeidate</option>
+                <option >Expert</option>
+            </optgroup> 
+            </select><br>
+            <input type="submit" name="submit" id="">
+        </fieldset>
+    </form>
+</body>
+</html>
